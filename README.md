@@ -909,23 +909,6 @@ Siguientes mejoras defendibles:
 - Anadir Qdrant como vector store externo.
 - Crear un frontend simple para operadores.
 
-## Como Explicarlo En Entrevista
-
-Una buena explicacion corta:
-
-```text
-Construí una API en FastAPI para un copiloto agricola. El sistema ingesta documentos tecnicos, los divide en chunks, genera embeddings y los guarda en ChromaDB. Cuando llega una pregunta, convierte la pregunta en embedding, recupera los chunks mas relevantes, combina ese contexto con datos operativos simulados de sensores e incidencias, construye un prompt y lo envia a un LLM mediante un adapter desacoplado. La respuesta devuelve texto, fuentes, scores y metadatos de ejecucion.
-```
-
-Puntos fuertes:
-
-- Entiendes el flujo RAG completo.
-- No dependes de LangChain para explicar la arquitectura.
-- Separas API, servicios, embeddings, vector store y LLM.
-- Has modelado datos de dominio.
-- Devuelves trazabilidad y no solo una respuesta generada.
-- El proyecto puede evolucionar de MVP a producto real.
-
 ## Referencias Publicas Del Dominio
 
 - USDA copyright y dominio publico: https://www.usda.gov/about-usda/policies-and-links
