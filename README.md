@@ -2,7 +2,7 @@
 
 API en FastAPI para un copiloto de operaciones agricolas. El proyecto combina RAG sobre documentos tecnicos del dominio agricola con datos operativos simulados de parcelas, sensores, incidencias y alertas.
 
-La idea no es hacer un simple "chat con PDFs", sino construir un backend de IA aplicada que puedas defender en una entrevista tecnica: los documentos se cargan, se dividen en chunks, se convierten en embeddings, se guardan en una base vectorial persistente, se recuperan por similitud, se inyectan en un prompt y se envian a un LLM para generar una respuesta trazable con fuentes.
+La idea no es hacer un simple "chat con PDFs", sino construir un backend de IA aplicada: los documentos se cargan, se dividen en chunks, se convierten en embeddings, se guardan en una base vectorial persistente, se recuperan por similitud, se inyectan en un prompt y se envian a un LLM para generar una respuesta trazable con fuentes.
 
 ## Objetivo Del Proyecto
 
