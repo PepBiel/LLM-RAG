@@ -1,0 +1,55 @@
+documents:
+  - document_id: irrigation_scheduling_basics
+    title: "Irrigation scheduling basics for field operations"
+    local_path: "data/raw/irrigation_scheduling_basics.md"
+    source_url: "https://directives.nrcs.usda.gov/sites/default/files2/1712930990/7385.pdf"
+    publisher: "USDA NRCS"
+    topic: "irrigation"
+    crops: ["general"]
+    license_note: "Demo note created for this project; based on public-domain USDA/NRCS concepts, not an official reproduction."
+
+  - document_id: soil_moisture_sensor_protocol
+    title: "Soil moisture sensor operating protocol"
+    local_path: "data/raw/soil_moisture_sensor_protocol.md"
+    source_url: "https://power.larc.nasa.gov/docs/methodology/communities/"
+    publisher: "Demo corpus"
+    topic: "sensors"
+    crops: ["general"]
+    license_note: "Demo note created for this project."
+
+  - document_id: ipm_scouting_principles
+    title: "Integrated pest management scouting principles"
+    local_path: "data/raw/ipm_scouting_principles.md"
+    source_url: "https://www.usda.gov/oce/pest/integrated-pest-management"
+    publisher: "USDA OPMP"
+    topic: "ipm"
+    crops: ["general"]
+    license_note: "Demo note created for this project; source concepts are attributed to USDA IPM material."
+
+  - document_id: drip_irrigation_troubleshooting
+    title: "Drip irrigation troubleshooting checklist"
+    local_path: "data/raw/drip_irrigation_troubleshooting.md"
+    source_url: "https://www.usda.gov/farming-and-ranching/plants-and-crops/pest-and-weed-management"
+    publisher: "Demo corpus"
+    topic: "irrigation"
+    crops: ["tomato", "vegetables"]
+    license_note: "Demo operational checklist created for this project."
+
+  - document_id: tomato_yellowing_field_check
+    title: "Tomato yellowing leaves field check"
+    local_path: "data/raw/tomato_yellowing_field_check.md"
+    source_url: "https://quickstats.nass.usda.gov/api"
+    publisher: "Demo corpus"
+    topic: "crop_health"
+    crops: ["tomato"]
+    license_note: "Demo field note created for this project."
+
+  - document_id: heat_stress_irrigation_response
+    title: "Heat stress and irrigation response protocol"
+    local_path: "data/raw/heat_stress_irrigation_response.md"
+    source_url: "https://power.larc.nasa.gov/docs/services/api/temporal/daily/"
+    publisher: "NASA POWER / Demo corpus"
+    topic: "weather"
+    crops: ["general", "tomato", "lettuce", "almond"]
+    license_note: "Demo note created for this project with attribution to NASA POWER as a weather-data reference."
+

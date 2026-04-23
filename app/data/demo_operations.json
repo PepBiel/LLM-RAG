@@ -1,0 +1,116 @@
+{
+  "plots": [
+    {
+      "plot_id": "plot-north-tomato-01",
+      "name": "North Tomato Block",
+      "crop": "tomato",
+      "variety": "Roma",
+      "area_ha": 2.4,
+      "soil_type": "sandy loam",
+      "irrigation_system": "drip",
+      "latitude": 39.4699,
+      "longitude": -0.3763
+    },
+    {
+      "plot_id": "plot-east-almond-02",
+      "name": "East Almond Orchard",
+      "crop": "almond",
+      "variety": "Nonpareil",
+      "area_ha": 5.8,
+      "soil_type": "loam",
+      "irrigation_system": "micro-sprinkler",
+      "latitude": 39.482,
+      "longitude": -0.355
+    },
+    {
+      "plot_id": "plot-south-lettuce-03",
+      "name": "South Lettuce Beds",
+      "crop": "lettuce",
+      "variety": "Romaine",
+      "area_ha": 1.2,
+      "soil_type": "clay loam",
+      "irrigation_system": "sprinkler",
+      "latitude": 39.451,
+      "longitude": -0.382
+    }
+  ],
+  "sensor_readings": [
+    {
+      "sensor_id": "sm-north-01",
+      "plot_id": "plot-north-tomato-01",
+      "timestamp": "2026-04-23T08:10:00Z",
+      "soil_moisture_pct": 13.8,
+      "air_temperature_c": 29.4,
+      "soil_temperature_c": 24.6,
+      "relative_humidity_pct": 42.0,
+      "battery_pct": 88.0
+    },
+    {
+      "sensor_id": "sm-east-02",
+      "plot_id": "plot-east-almond-02",
+      "timestamp": "2026-04-23T08:05:00Z",
+      "soil_moisture_pct": 21.5,
+      "air_temperature_c": 27.9,
+      "soil_temperature_c": 22.2,
+      "relative_humidity_pct": 46.0,
+      "battery_pct": 76.0
+    },
+    {
+      "sensor_id": "sm-south-03",
+      "plot_id": "plot-south-lettuce-03",
+      "timestamp": "2026-04-23T08:15:00Z",
+      "soil_moisture_pct": 31.2,
+      "air_temperature_c": 22.3,
+      "soil_temperature_c": 19.8,
+      "relative_humidity_pct": 67.0,
+      "battery_pct": 91.0
+    }
+  ],
+  "incidents": [
+    {
+      "incident_id": "inc-1001",
+      "plot_id": "plot-north-tomato-01",
+      "observed_at": "2026-04-22T17:40:00Z",
+      "type": "yellowing_leaves",
+      "severity": "medium",
+      "status": "open",
+      "notes": "Yellowing on lower leaves in two rows near the western irrigation line. No confirmed pest observation yet."
+    },
+    {
+      "incident_id": "inc-1002",
+      "plot_id": "plot-east-almond-02",
+      "observed_at": "2026-04-21T10:20:00Z",
+      "type": "irrigation_uniformity_check",
+      "severity": "low",
+      "status": "open",
+      "notes": "Operator reported uneven wetting pattern in the north-east corner after last irrigation cycle."
+    }
+  ],
+  "alerts": [
+    {
+      "alert_id": "alert-3001",
+      "plot_id": "plot-north-tomato-01",
+      "created_at": "2026-04-23T08:20:00Z",
+      "type": "low_soil_moisture",
+      "severity": "high",
+      "message": "Soil moisture is below the local operational threshold for tomato drip irrigation."
+    },
+    {
+      "alert_id": "alert-3002",
+      "plot_id": "plot-north-tomato-01",
+      "created_at": "2026-04-23T08:25:00Z",
+      "type": "heat_risk",
+      "severity": "medium",
+      "message": "Air temperature is rising while relative humidity is low; monitor crop stress during midday."
+    },
+    {
+      "alert_id": "alert-3003",
+      "plot_id": "plot-east-almond-02",
+      "created_at": "2026-04-23T08:30:00Z",
+      "type": "uniformity_follow_up",
+      "severity": "low",
+      "message": "Schedule a visual check of emitter distribution in the reported corner."
+    }
+  ]
+}
+
